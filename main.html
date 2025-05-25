@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanislove</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#delivery">Доставка</a></li>
+                <li class="dropdown">
+                    <a href="#">Товары</a>
+                    <div class="dropdown-content">
+                        <a href="phones.html">Телефоны</a>
+                        <a href="tablets.html">Планшеты</a>
+                        <a href="laptops.html">Ноутбуки</a>
+                        <a href="headphones.html">Наушники</a>
+                        <a href="tv.html">Телевизоры</a>
+                    </div>
+                </li>                
+            </ul>
+            <h1 class="logo"><a href="main.html" style="color: white; text-decoration: none;">Stanislove</a></h1>
+            <ul>
+                <li><a href="онас.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="recommendations-title">Рекомендации</h2>
+    <div id="cart-icon">
+        <img src="images/free-icon-shopping-bag-4903482.png" alt="Cart" width="40">
+        <span id="cart-count" style="position: absolute; top: -5px; right: -5px; background: red; color: white; font-size: 14px; border-radius: 50%; padding: 5px; display: none;">0</span>
+    </div>
+    
+    <div id="cart-container" style="display: none; position: fixed; bottom: 20px; right: 10px; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 10px;">
+        <button id="close-cart" style="background: red; color: white; border: none; padding: 5px 10px; cursor: pointer; margin-bottom: 10px;">Закрыть</button>
+        <ul id="cart-list"></ul>
+    </div>
+    <section class="products-section">
+        <div class="products-container">
+            <div class="product">
+                <img src="images/н2.png" alt="Игровой ноутбук">
+                <p>Игровой ноутбук Asus TUF Gaming F15</p>
+                <p class="price">459 990 тг.</p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <div class="product-image-container">
+                    <img src="images/1.png" alt="Смартфон iPhone">
+                    <span class="discount-badge">-6%</span>
+                </div>
+                <p>Смартфон Apple iPhone 13 4/128GB</p>
+                <p class="price">329 990 тг. <span class="old-price">349 990 тг.</span></p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <img src="images/Screenshot_1.png" alt="Наушники AirPods">
+                <p>Наушники Apple AirPods 4 MXP63ZE/A</p>
+                <p class="price">99 990 тг.</p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <div class="product-image-container">
+                    <img src="images/Screenshot_2.png" alt="Apple iPad">
+                    <span class="discount-badge">-20%</span>
+                </div>
+                <p>Планшет Apple iPad 10.9</p>
+                <p class="price">199 990тг. <span class="old-price">249 990 тг.</span></p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <img src="images/Screenshot_3.png" alt="Apple AirPods Max 2">
+                <p>Наушники Apple AirPods Max 2 Midnight</p>
+                <p class="price">412 990тг.</p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <div class="product-image-container">
+                    <img src="images/Screenshot_4.png" alt="Телевизор Samsung 55">
+                    <span class="discount-badge">-13%</span>
+                </div>
+                <p>Телевизор Samsung 55" Crystal UHD 4K</p>
+                <p class="price">354 990тг. <span class="old-price">409 990 тг.</span></p>
+                <button class="btn">Добавить в корзину</button>
+            </div>
+        </div>
+    </section>
+    <section class="info-section">
+        <h3>Информация о доставке</h3>
+        <p>Мы предлагаем удобные способы доставки для вашего комфорта:</p>
+        <p>📦 <strong>Курьерская доставка</strong> – быстрая и надежная, срок от 1 до 3 дней.</p>
+        <p>🏬 <strong>Самовывоз</strong> – заберите заказ в одном из наших пунктов.</p>
+        <p>✈️ <strong>Доставка по Казахстану</strong> – отправка транспортными компаниями, сроки зависят от региона.</p>
+        <p>Стоимость и доступные способы доставки рассчитываются при оформлении заказа. 🚚✨</p>
+    </section>
+
+    <section class="about-section">
+        <h2 class="about-title">О нас</h2>
+        <p><strong>Stanislove</strong> – сайт о современной технике, где собраны обзоры, характеристики и рекомендации по выбору гаджетов. У нас вы найдете информацию о смартфонах, ноутбуках, наушниках, телевизорах и других устройствах. Простая навигация, актуальные данные и удобный поиск помогут быстро подобрать нужную технику. 🚀</p>
+    </section>
+    <footer class="footer">
+        <p>+7 747 383 20 62</p>
+        <p>Stanislove@store.com</p>
+        <p>По любым вопросам и для заказа свяжитесь с нами по телефону, почте и в соцсетях.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com" target="_blank"><img src="images/Tumblr_black.png" alt="X"></a>
+            <a href="https://vk.com" target="_blank"><img src="images/VK_black.png" alt="VK"></a>
+            <a href="https://t.me" target="_blank"><img src="images/Telegram_black.png" alt="Telegram"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/Instagram_black.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    updateCartCounter();
+
+    document.querySelectorAll(".btn").forEach(button => {
+        button.addEventListener("click", function () {
+            let product = this.closest(".product");
+            let name = product.querySelector("p").textContent;
+            let priceElement = product.querySelector(".price");
+            let oldPriceElement = product.querySelector(".old-price");
+
+            let price = oldPriceElement ? priceElement.childNodes[0].nodeValue.trim() : priceElement.textContent.trim();
+            let image = product.querySelector("img").src;
+
+            let existingItem = cart.find(item => item.name === name);
+
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ name, price, image, quantity: 1 });
+            }
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+            updateCartCounter();
+        });
+    });
+
+    function updateCartCounter() {
+        let cartCount = document.getElementById("cart-count");
+        let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        if (cartCount) {
+            cartCount.textContent = totalItems;
+            cartCount.style.display = totalItems > 0 ? "block" : "none";
+        }
+    }
+
+    function showCart() {
+        let cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+        let cartList = document.getElementById("cart-list");
+        let totalPrice = 0;
+        cartList.innerHTML = "";
+
+        cartItems.forEach((item, index) => {
+            let price = parseInt(item.price.replace(/\s/g, ""), 10); 
+            totalPrice += price * item.quantity;
+
+            let li = document.createElement("li");
+            li.classList.add("cart-item");
+            li.innerHTML = `
+                <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+                <div class="cart-item-details">
+                    <span class="cart-item-name">${item.name}</span>
+                    <span class="cart-item-price">${price.toLocaleString()} тг.</span>
+                    <div class="cart-item-controls">
+                        <button onclick="changeQuantity(${index}, 1)">➕</button>
+                        <span>${item.quantity}</span>
+                        <button onclick="changeQuantity(${index}, -1)">➖</button>
+                        <button onclick="removeFromCart(${index})">❌</button>
+                    </div>
+                </div>
+            `;
+            cartList.appendChild(li);
+        });
+
+        let totalElement = document.createElement("p");
+        totalElement.innerHTML = `<strong>Итого: ${totalPrice.toLocaleString()} тг.</strong>`;
+        cartList.appendChild(totalElement);
+
+        document.getElementById("cart-container").style.display = "block";
+    }
+
+    window.changeQuantity = function (index, amount) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        if (cart[index]) {
+            cart[index].quantity += amount;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            localStorage.setItem("cart", JSON.stringify(cart));
+            showCart();
+            updateCartCounter();
+        }
+    };
+
+    window.removeFromCart = function (index) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.splice(index, 1);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        showCart();
+        updateCartCounter();
+    };
+
+    document.getElementById("cart-icon").addEventListener("click", showCart);
+    document.getElementById("close-cart").addEventListener("click", function () {
+        document.getElementById("cart-container").style.display = "none";
+    });
+});
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+    let cartIcon = document.getElementById("cart-icon");
+    let cartContainer = document.getElementById("cart-container");
+    let closeCartBtn = document.getElementById("close-cart");
+
+    function showCart() {
+        cartContainer.style.display = "block";
+        cartIcon.style.display = "none"; 
+    }
+
+    function hideCart() {
+        cartContainer.style.display = "none";
+        cartIcon.style.display = "block"; 
+    }
+
+    cartIcon.addEventListener("click", showCart);
+    closeCartBtn.addEventListener("click", hideCart);
+});
+
+    </script>
+    
+</body>
+</html>
